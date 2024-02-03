@@ -1,17 +1,80 @@
-<html>
-  <head>
-    <title>Facebook Login</title>
-  </head>
-  <body>
-	  <section id="Name">
-		  <h1>Harale</h1>
-	</section>
-	  <section id="Email">
-		  <h2>premharale9999@gmail.com</h2>
-	  </section>
-	  <section id="profile">
-		  <P>iam harale premkrishna recently i have completed my graduation from malla reddy college</P>
-	  </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Profile</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
 
-	    </body>
+        header {
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        #skills {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .skill-bar {
+            width: 70%;
+            background-color: #ddd;
+            border-radius: 5px;
+            margin: 5px 0;
+            overflow: hidden;
+        }
+
+        .skill-bar-inner {
+            height: 20px;
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Name</h1>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </header>
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <p>Your desired position or job title.</p>
+    </section>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>A brief description of yourself and your professional background.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-bar">
+            <div class="skill-bar-inner" style="width: 80%;"></div>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-bar-inner" style="width: 70%;"></div>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-bar-inner" style="width: 90%;"></div>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-bar-inner" style="width: 60%;"></div>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-bar-inner" style="width: 85%;"></div>
+        </div>
+    </section>
+
+    <!-- Add more sections, such as education, experience, etc. -->
+
+</body>
 </html>
